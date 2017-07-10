@@ -13,7 +13,7 @@ angular.module('starter.repositories', [])
         };
 
         this.getBalance = function () {
-            var urlFirebase = "https://demofire-d6827.firebaseio.com/app.json";
+            var urlFirebase = "https://venta-e7fad.firebaseio.com/app.json";
             var defer = $q.defer();
             $http.get(urlFirebase, { timeout: 40000 })
                 .success(function (response) {
@@ -29,7 +29,7 @@ angular.module('starter.repositories', [])
             //Este metodo no envia los datos y valida en firebase, solo hace una peticion comun.
             //Lo utilice para poder somular que la compra se realiza correctamente. y continuar con el flujo de la app
             console.log("DATOS DE ENVIO PARA COMPRA: ", requestBuy);
-            var urlFirebase = "https://demofire-d6827.firebaseio.com/app.json";
+            var urlFirebase = "https://venta-e7fad.firebaseio.com/app.json";
             var defer = $q.defer();
             $http.get(urlFirebase, { timeout: 40000 })
                 .success(function (response) {

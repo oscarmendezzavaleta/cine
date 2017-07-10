@@ -24,8 +24,8 @@ angular.module('starter.controllers', [])
     };
   })
   .controller('ProductsCtrl', function ($scope, $state, Products, $ionicPopup, $ionicHistory) {
-    $ionicHistory.clearHistory();
-    $ionicHistory.nextViewOptions({ disableBack: true, historyRoot: true });
+    $ionicHistory.clearHistory(); // no guarde el historial de navegacion
+    $ionicHistory.nextViewOptions({ disableBack: true, historyRoot: true }); // no guarde el historial de navegacion
     $scope.products = Products.allProducts();
     $scope.buy = function () {
       //Pasar el monto de la compra
