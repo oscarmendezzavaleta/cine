@@ -1,0 +1,178 @@
+/* Empty. Add your own CSS if you like */
+/*Page Login */
+.back{
+    position: static;
+    background: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    margin: 8px;
+    height: 36%;
+}
+.logo{
+    margin-top: 20%;
+    position: static;
+    text-align: center;
+}
+.listLogin{
+    position: static;
+    margin-top: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.dni{
+    margin-bottom: 15px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-color: #0D47A1;
+    padding: 0px;
+}
+.password{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-color: #0D47A1;
+    padding: 0px;
+
+}
+.ion-card{
+    color: #0D47A1;
+    padding-right: 10px;
+    padding-left: 5px;
+    font-size: 22px;
+}
+.ion-locked{
+    color: #0D47A1;
+    padding-right: 10px;
+    padding-left: 5px;
+    font-size: 22px;
+}
+.buttonLogin{
+    color: white;
+    background-color: #2962FF;
+    width: 250px;
+    border-color: transparent;
+    min-height: 38px;
+    line-height: 0;
+}
+input::-webkit-input-placeholder {
+    color: #0D47A1;
+
+}
+input:-moz-placeholder {
+    color: #0D47A1; 
+}
+input:-ms-input-placeholder { 
+    color: #0D47A1; 
+}
+.item-input input {
+    color:#0D47A1;
+}
+.item-input input {
+    color:#0D47A1;
+}
+
+/* Styles for tab-products */
+
+.item-checkbox .checkbox{
+    z-index: -1;
+}
+.products {
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 47%;
+    background: #fff;
+    margin-top: 2.5%;
+    /* height: 230px; */
+    height: auto;
+    float: left;
+}
+.productselect{
+    background: #0D47A1;
+}
+.textselect{
+    color: #fff;
+}
+
+.product-image {
+    width: 100%;
+    height: 50%;
+}
+.item-checkbox{
+    padding: 2px;
+}
+.name-product{
+    font-size: 14px;
+}
+
+/*Styles for Pay screen*/
+.box {
+    position: relative;
+    background: #387ef5;
+    box-shadow: 0 1px 6px rgba(2, 0, 0, .5);
+    /*height: 64px;*/
+    transition: all .15s ease-in-out;
+}
+.box-title {
+    width: calc(100% - 40px);
+    /*height: 64px;*/
+    color: #fff;
+    line-height: 64px;
+    font-size: medium;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+}
+.box-pay {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0px 6px rgba(2, 0, 0, .5);
+    /*height: 64px;*/
+    transition: all .15s ease-in-out;
+}
+
+.item-visa{
+    background: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    margin: 8px;
+    height: 36%;
+}
+
+.buttonProcess{
+    color: white;
+    background-color: #2962FF;
+    width: 100%;
+    border-color: transparent;
+    min-height: 38px;
+    line-height: 0;
+}
+
+/* style for popup
+.popup-container .popup{
+    width: 150px;
+}
+.popup-body {
+    padding-top: 0px;
+}
+.popup-title{
+    color: #387ef5;
+}
+/*.popup-head {
+  padding: 0px;
+  border-bottom: none;
+}
+*/
+/* Popup */
+.buttonPopup{
+    top: 0;
+    height: 45px;
+    flex-direction: row;
+    margin-bottom: 0px;
+}

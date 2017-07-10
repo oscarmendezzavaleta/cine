@@ -1,0 +1,25 @@
+<ion-view align-title="left" hide-nav-bar="true" cache-view="false">
+    <ion-content style="background: url(img/background/background.jpg) center; background-size: cover;" scroll="false">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="back ">
+            <div class="listLogin">
+                <label class="item item-input dni" style="padding-top: 8%;">
+                    <i class="icon ion-card"></i>
+                    <input type="text" maxlength="8" max="8" min="8" minlength="8" placeholder="Ingrese su dni" ng-model="dni" id="dniWallet">
+                </label>
+                <label class="item item-input password">
+                    <i class="icon ion-locked"></i>
+                    <input type="password" placeholder="Ingrese su contraseña" ng-model="password" id="passwordWallet">
+                </label>
+            </div>
+            <div class="padding">
+                <center>
+                    <button type="button" class="button button-positive buttonLogin" ng-disabled="!dni || !password" ng-click="doLogin(dni, password)">Entrar</button>
+                </center>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

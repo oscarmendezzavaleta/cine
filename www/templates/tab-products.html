@@ -1,0 +1,24 @@
+<ion-view cache-view="false">
+    <div class="bar bar-header bar-light">
+        <h1 class="title">Productos</h1>
+        <button class="button button-outline button-positive" ng-click="buy()">Comprar</button>
+    </div>
+    <ion-content class="has-header">
+        <div class="pantalla">
+            <ion-checkbox ng-class="{productselect: product.checked}" class="products" ng-repeat="product in products" ng-model="product.checked"
+                ng-checked="product.checked">
+                <div class="">
+                    <img ng-src="img/products/{{product.image}}" alt="" class="product-image">
+                    <div class="row" ng-class="product.checked">
+                        <div class="col">
+                            <h3 ng-class="{textselect: product.checked}">{{product.name}}</h3>
+                            <h4 style="float: left;" ng-class="{textselect: product.checked}"><span style="font-size: 8px;"> Intercoins</span> {{product.price}} </h4><img style="height: 10px;" src="img/moneda.svg" alt="">
+                            <h4 style="float: right;" ng-class="{textselect: product.checked}"><span style="font-size: 8px;"> S/ </span>{{product.price}}</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+            </ion-checkbox>
+        </div>
+    </ion-content>
+</ion-view>

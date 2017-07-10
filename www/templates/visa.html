@@ -1,0 +1,70 @@
+<ion-view title="Visa">
+    <div class="bar bar-header bar-light" style=" height: 30%;">
+        <div class="row" style="align-items: center; ">
+            <div class="col" style="text-align: center;">
+                <img ng-src="img/visa.png" alt="" style="height: auto; width: 30%;">
+            </div>
+        </div>
+    </div>
+    <ion-content class="has-header" style="background: #0D47A1; padding-top: 30%; ">
+        
+        <div class="row" style="padding-top: 30%;">
+            <div class="col item-visa">
+                <div class="row">
+                    <div class="col">
+                        <label class="item item-input dni" style="padding-top: 8%;">
+                            <input type="text" maxlength="16" max="16" min="16" minlength="16" placeholder="Numero de Tarjeta" ng-model="numero" style="text-align: center;">
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label class="item item-input dni" style="padding-top: 8%;">
+                            <input type="text" maxlength="5" max="5" min="5" minlength="5" placeholder="08/12" ng-model="fecha" style="text-align: center;">
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="item item-input dni" style="padding-top: 8%;">
+                            <input type="text" maxlength="3" max="3" min="3" minlength="3" placeholder="CVV" ng-model="cvv" style="text-align: center;">
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <center>
+                            <button type="button" ng-click="confirmPay()" class="button button-positive buttonProcess">Procesar</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="">
+            <div class="row">
+                <div class="col" style="padding: 2px;">
+                    <label class="item item-input" style=" border: none; background: rgba(255,255,255,0.5);">
+                        <input type="text" placeholder="Numero Tarjeta">
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding: 2px;">
+                    <label class="item item-input" style="border: none; background: rgba(255,255,255,0.5);">
+                        <input type="text" placeholder="Fecha" >
+                    </label>
+                </div>
+                <div class="col" style="padding: 2px;" >
+                    <label class="item item-input" style="border: none; background: rgba(255,255,255,0.5);">
+                        <input type="text" placeholder="CVV">
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding: 2px;">
+                    <button type="button" class="button button-positive buttonProcess">Procesar</button>
+                </div>
+            </div>
+        </div>-->
+    </ion-content>
+</ion-view>

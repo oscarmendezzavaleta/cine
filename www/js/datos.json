@@ -1,0 +1,36 @@
+[{
+      "id": 0,
+      "name": "Saga Crepúsculo",
+      "price": 15,
+      "image": "1.jpg",
+      "qty": 1,
+      "checked": false
+    },{
+       "id": 1,
+      "name": "superman",
+      "price": 15,
+      "image": "2.jpg",
+      "qty": 1,
+      "checked": false
+    },{
+       "id": 2,
+      "name": "tedy",
+      "price": 15,
+      "image": "3.jpg",
+      "qty": 1,
+      "checked": false
+    },{
+      "id": 3,
+      "name": "1 Pop corn + 2 Bebidas",
+      "price": 15,
+      "image": "4.jpg",
+      "qty": 1,
+      "checked": false
+    },{
+      "id": 3,
+      "name": "1 Pop corn + 2 Bebidas",
+      "price": 15,
+      "image": "4.jpg",
+      "qty": 1,
+      "checked": false
+    }]
